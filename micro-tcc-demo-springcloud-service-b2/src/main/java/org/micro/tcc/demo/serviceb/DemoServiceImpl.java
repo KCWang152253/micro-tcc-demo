@@ -2,8 +2,9 @@ package org.micro.tcc.demo.serviceb;
 
 
 import lombok.extern.slf4j.Slf4j;
+import org.micro.tcc.common.annotation.TccTransaction;
 import org.micro.tcc.demo.common.util.FixSizeCacheMap;
-import org.micro.tcc.tc.annotation.TccTransaction;
+//import org.micro.tcc.tc.annotation.TccTransaction;
 import org.micro.tcc.tc.component.TransactionManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -39,7 +40,8 @@ public class DemoServiceImpl implements DemoService {
 
     @Override
     @Transactional
-    @TccTransaction(confirmMethod = "confirmMethod",cancelMethod = "cancelMethod",propagation = Propagation.SUPPORTS,rollbackFor = Throwable.class)
+//    @TccTransaction(confirmMethod = "confirmMethod",cancelMethod = "cancelMethod",propagation = Propagation.SUPPORTS,rollbackFor = Throwable.class)
+    @TccTransaction(confirmMethod = "confirmMethod",cancelMethod = "cancelMethod",propagation = Propagation.SUPPORTS)
     public String rpc(String value) throws Exception {
 
         //serviceCClient.rpc(value);

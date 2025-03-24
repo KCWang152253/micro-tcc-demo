@@ -6,7 +6,8 @@ See here for more details: http://gordondickens.com/wordpress/2013/03/27/sawing-
     <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">
         <resetJUL>true</resetJUL>
     </contextListener>
-    <property name="LOG_HOME" value="/logs" />
+<!--    <property name="LOG_HOME" value="/logs" />-->
+    <property name="LOG_HOME" value="./micro-tcc-demo-dubbo-service-a/logs" />
     <property name="DEFAULT_PATTERN" value="[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%-5level] [%thread] [%logger{40}] %msg%n{}" />
 
     <!-- To enable JMX Management -->

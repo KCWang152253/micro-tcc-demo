@@ -3,8 +3,9 @@ package org.micro.tcc.demo.dubbo.servicea;
 import com.alibaba.dubbo.config.annotation.Reference;
 
 import lombok.extern.slf4j.Slf4j;
+import org.micro.tcc.common.annotation.TccTransaction;
 import org.micro.tcc.demo.common.util.FixSizeCacheMap;
-import org.micro.tcc.tc.annotation.TccTransaction;
+//import org.micro.tcc.tc.annotation.TccTransaction;
 import org.micro.tcc.tc.component.TransactionManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -53,7 +54,8 @@ public class DemoApiServiceImpl implements DemoApiService {
 
     @Override
     @Transactional(rollbackFor = {Throwable.class,Exception.class})
-    @TccTransaction(confirmMethod = "confirmMethod",cancelMethod = "cancelMethod",rollbackFor = Throwable.class)
+//    @TccTransaction(confirmMethod = "confirmMethod",cancelMethod = "cancelMethod",rollbackFor = Throwable.class)
+    @TccTransaction(confirmMethod = "confirmMethod",cancelMethod = "cancelMethod")
     public String execute(String name, String exFlag) {
         long a=System.currentTimeMillis();
         String bResp = demoServiceB.rpc(name);

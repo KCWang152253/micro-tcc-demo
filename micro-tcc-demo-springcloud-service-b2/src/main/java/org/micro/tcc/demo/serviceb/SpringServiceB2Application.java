@@ -1,7 +1,8 @@
 package org.micro.tcc.demo.serviceb;
 
 
-import org.micro.tcc.tc.annotation.EnableMicroTccTransaction;
+//import org.micro.tcc.tc.annotation.EnableMicroTccTransaction;
+import org.micro.tcc.tc.component.EnableMicroTccTransaction;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;

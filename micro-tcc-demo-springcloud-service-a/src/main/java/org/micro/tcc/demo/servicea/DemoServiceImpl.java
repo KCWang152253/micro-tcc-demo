@@ -3,8 +3,9 @@ package org.micro.tcc.demo.servicea;
 ;
 import lombok.extern.slf4j.Slf4j;
 
+import org.micro.tcc.common.annotation.TccTransaction;
 import org.micro.tcc.demo.common.util.FixSizeCacheMap;
-import org.micro.tcc.tc.annotation.TccTransaction;
+//import org.micro.tcc.tc.annotation.TccTransaction;
 import org.micro.tcc.tc.component.TransactionManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -50,7 +51,8 @@ public class DemoServiceImpl implements DemoService {
 
     @Override
     @Transactional
-    @TccTransaction(confirmMethod = "confirmMethod",cancelMethod = "cancelMethod",rollbackFor = Throwable.class)
+//    @TccTransaction(confirmMethod = "confirmMethod",cancelMethod = "cancelMethod",rollbackFor = Throwable.class)
+    @TccTransaction(confirmMethod = "confirmMethod",cancelMethod = "cancelMethod")
     public String execute( String value, String exFlag) {
         long start=System.currentTimeMillis();
         // step1
