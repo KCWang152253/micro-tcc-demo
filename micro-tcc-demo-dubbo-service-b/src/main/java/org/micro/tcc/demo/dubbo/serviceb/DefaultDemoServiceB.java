@@ -3,10 +3,11 @@ package org.micro.tcc.demo.dubbo.serviceb;
 import com.alibaba.dubbo.config.annotation.Service;
 
 import lombok.extern.slf4j.Slf4j;
+import org.micro.tcc.common.annotation.TccTransaction;
 import org.micro.tcc.common.constant.Propagation;
 
 import org.micro.tcc.demo.common.util.FixSizeCacheMap;
-import org.micro.tcc.tc.annotation.TccTransaction;
+//import org.micro.tcc.tc.annotation.TccTransaction;
 import org.micro.tcc.tc.component.TransactionManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.micro.tcc.demo.common.db.domain.Demo;
@@ -41,7 +42,8 @@ public class DefaultDemoServiceB implements DemoServiceB {
 
     @Override
     @Transactional
-    @TccTransaction(confirmMethod = "confirmMethod",cancelMethod = "cancelMethod",propagation = Propagation.SUPPORTS,rollbackFor = Throwable.class)
+//    @TccTransaction(confirmMethod = "confirmMethod",cancelMethod = "cancelMethod",propagation = Propagation.SUPPORTS,rollbackFor = Throwable.class)
+    @TccTransaction(confirmMethod = "confirmMethod",cancelMethod = "cancelMethod",propagation = Propagation.SUPPORTS)
     public String rpc(String name) {
         long a=System.currentTimeMillis();
         Demo demo = new Demo();
