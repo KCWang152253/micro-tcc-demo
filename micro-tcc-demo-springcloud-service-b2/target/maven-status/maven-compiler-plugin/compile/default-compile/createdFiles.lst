@@ -1,0 +1,5 @@
+org/micro/tcc/demo/serviceb/DemoService.class
+org/micro/tcc/demo/serviceb/DemoServiceImpl.class
+org/micro/tcc/demo/serviceb/SpringServiceB2Application.class
+org/micro/tcc/demo/serviceb/DemoMapper.class
+org/micro/tcc/demo/serviceb/DemoController.class

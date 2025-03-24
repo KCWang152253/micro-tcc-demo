@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"org.micro.tcc.demo.servicec","l":"DemoController"},{"p":"org.micro.tcc.demo.servicec","l":"DemoMapper"},{"p":"org.micro.tcc.demo.servicec","l":"DemoService"},{"p":"org.micro.tcc.demo.servicec","l":"DemoServiceImpl"},{"p":"org.micro.tcc.demo.servicec","l":"SpringServiceCApplication"},{"l":"所有类","u":"allclasses-index.html"}];updateSearchResults();

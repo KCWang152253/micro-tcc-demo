@@ -1,0 +1,10 @@
+org/micro/tcc/demo/common/util/FixSizeCacheMap.class
+org/micro/tcc/demo/common/spring/FeignApiConfiguration.class
+org/micro/tcc/demo/common/spring/ServiceCFallback.class
+org/micro/tcc/demo/common/db/domain/Demo.class
+org/micro/tcc/demo/common/db/mapper/BaseDemoMapper.class
+org/micro/tcc/demo/common/spring/ServiceBFallback.class
+org/micro/tcc/demo/common/spring/ServiceCClient.class
+org/micro/tcc/demo/common/spring/ServiceBClient.class
+org/micro/tcc/demo/common/dubbo/DemoServiceC.class
+org/micro/tcc/demo/common/dubbo/DemoServiceB.class

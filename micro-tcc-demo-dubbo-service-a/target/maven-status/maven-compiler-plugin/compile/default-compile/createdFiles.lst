@@ -1,0 +1,5 @@
+org/micro/tcc/demo/dubbo/servicea/DemoMapper.class
+org/micro/tcc/demo/dubbo/servicea/DemoApiService.class
+org/micro/tcc/demo/dubbo/servicea/DubboServiceAApplication.class
+org/micro/tcc/demo/dubbo/servicea/DemoApiServiceImpl.class
+org/micro/tcc/demo/dubbo/servicea/DemoConsumerController.class

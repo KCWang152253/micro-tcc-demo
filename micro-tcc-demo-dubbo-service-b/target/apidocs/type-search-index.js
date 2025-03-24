@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"org.micro.tcc.demo.dubbo.serviceb","l":"DefaultDemoServiceB"},{"p":"org.micro.tcc.demo.dubbo.serviceb","l":"DemoMapper"},{"p":"org.micro.tcc.demo.dubbo.serviceb","l":"DubboServiceBApplication"},{"l":"所有类","u":"allclasses-index.html"}];updateSearchResults();

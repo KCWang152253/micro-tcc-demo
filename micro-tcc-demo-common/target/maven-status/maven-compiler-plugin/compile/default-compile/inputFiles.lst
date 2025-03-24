@@ -1,0 +1,10 @@
+/Users/kcwang/java/spring/micro-tcc-demo/micro-tcc-demo-common/src/main/java/org/micro/tcc/demo/common/db/mapper/BaseDemoMapper.java
+/Users/kcwang/java/spring/micro-tcc-demo/micro-tcc-demo-common/src/main/java/org/micro/tcc/demo/common/dubbo/DemoServiceB.java
+/Users/kcwang/java/spring/micro-tcc-demo/micro-tcc-demo-common/src/main/java/org/micro/tcc/demo/common/db/domain/Demo.java
+/Users/kcwang/java/spring/micro-tcc-demo/micro-tcc-demo-common/src/main/java/org/micro/tcc/demo/common/dubbo/DemoServiceC.java
+/Users/kcwang/java/spring/micro-tcc-demo/micro-tcc-demo-common/src/main/java/org/micro/tcc/demo/common/spring/FeignApiConfiguration.java
+/Users/kcwang/java/spring/micro-tcc-demo/micro-tcc-demo-common/src/main/java/org/micro/tcc/demo/common/spring/ServiceBFallback.java
+/Users/kcwang/java/spring/micro-tcc-demo/micro-tcc-demo-common/src/main/java/org/micro/tcc/demo/common/util/FixSizeCacheMap.java
+/Users/kcwang/java/spring/micro-tcc-demo/micro-tcc-demo-common/src/main/java/org/micro/tcc/demo/common/spring/ServiceCFallback.java
+/Users/kcwang/java/spring/micro-tcc-demo/micro-tcc-demo-common/src/main/java/org/micro/tcc/demo/common/spring/ServiceCClient.java
+/Users/kcwang/java/spring/micro-tcc-demo/micro-tcc-demo-common/src/main/java/org/micro/tcc/demo/common/spring/ServiceBClient.java

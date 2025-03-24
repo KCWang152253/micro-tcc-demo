@@ -1,0 +1,5 @@
+org.micro.tcc.demo.common.db.domain
+org.micro.tcc.demo.common.db.mapper
+org.micro.tcc.demo.common.dubbo
+org.micro.tcc.demo.common.spring
+org.micro.tcc.demo.common.util
